@@ -1,0 +1,40 @@
+.big-button {
+    background: $purple;
+    border: none;
+    font-weight: bold;
+    font-size: $l-size;
+    padding: 2.4rem;
+    width: 100%;
+    margin-bottom: $m-size;
+    color: white;
+    box-shadow: 0px 5px 10px #252525;
+}
+
+.big-button:disabled {
+    opacity: .5;
+}
+
+//button
+
+.button {
+    background: $purple;
+    border: none;
+    box-shadow: 0px 5px 10px #252525;
+    font-weight: 500;
+    color: white;
+    padding: $s-size;
+}
+
+.button--link {
+    background: none;
+    border: none;
+    color: $off-white;
+    padding: 0;
+    box-shadow: none;
+}
+
+@media (min-width: $wid ) {
+    .big-button {
+        margin-bottom: $xl-size;
+    }
+}
